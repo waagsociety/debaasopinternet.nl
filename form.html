@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head> 
+		<title>Upload form</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1.0">
+		<script type="text/javascript" src="assets/js/iframe.min.js"></script>
+		<script src="https://use.typekit.net/kzn1tml.js"></script>
+  	    <link href="http://fonts.googleapis.com/css?family=Sue+Ellen+Francisco" rel="stylesheet">
+		<script>try{Typekit.load({ async: true });}catch(e){}</script>
+		<link rel="stylesheet" href="assets/css/main.css">
+		<style type="text/css">
+			body {
+				background:white;
+			}
+		</style>
+	</head>
+	<body>
+	<div class="form__wrapper flex">
+			<div class="left__col">
+				<h2 class="alpha poptitle">UPLOAD hier een foto van je werkblad:</h2>
+				<!-- add dropzone -->
+				<form action="/api/file_upload" class="dropzone" id="my-awesome-dropzone">
+				</form>           
+				<div id="image_quality_warning"></div>
+			</div>
+			<div class="right__col">
+			<!-- add form for -->
+				<form class="werkblad">
+				  <!--<label>wie heeft deze meting gedaan</label>-->
+				  <!--<input type="text" name="name" />-->
+				  <label>Vertel in één korte zin wat je hebt ondekt</label>
+				  <input type="text" name="description" id="description-field" />
+				  
+				  <input type="hidden" name="resource_id" id="resource-id" readonly/>
+				  <input type="hidden" name="qr_code" id="qr-code" readonly/>
+				  <input type="hidden" name="lat" id="lat" readonly/>
+				  <input type="hidden" name="lon" id="lon" readonly/>
+				  <select name="resource_type">
+				  	<option value="0">-- Kies je werkblad --</option>  
+					<option value="1">Zuurmeter</option>
+				  	<option value="2">Mineralenmeter</option>
+				  	<option value="3">Lichtmeter</option>
+				  	<option value="4">Helderheidsmeter</option>
+				  	<option value="5">Microbenmeter</option>
+				  	<option value="6">Fijnstofmeter</option>
+				  	<option value="7">Bodembedekkingmeter</option>
+					<option value="8">Schetenmeter</option>
+					<option value="9">UV stralingsmeter</option>
+					<option value="10">Geluidsmeter</option>
+				   </select>
+				   <button type="submit" class="btn btn-1">Zet op de kaart!</button>
+				</form>
+			</div>
+		</div>
+	</body>
+</html>

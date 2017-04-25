@@ -1,0 +1,21 @@
+Title: Opgeslagen
+
+----
+
+Text: Wat mag er van jou BEWAARD worden? Je leert dat heel veel OPGESLAGEN wordt, met een nader te bepalen DOEL.
+
+----
+
+Infoimage: placeholder.png
+
+----
+
+Category: a
+
+----
+
+Assignment: store
+
+----
+
+Download: SmartKidsLab_Geluidmeter.pdf

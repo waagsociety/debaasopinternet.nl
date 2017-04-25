@@ -1,0 +1,21 @@
+Title: Cryptograpfie
+
+----
+
+Text: Hoe KRAAK je een GEHEIM? Je leert wat cryptografie vandaag de dag is: hoe bescherm je jezelf?
+
+----
+
+Infoimage: placeholder.png
+
+----
+
+Category: a
+
+----
+
+Assignment: cryptography
+
+----
+
+Download: SmartKidsLab_UV-stralingsmeter.pdf

@@ -1,0 +1,115 @@
+@font-face {
+  font-family: 'Sue Ellen Francisco';
+  src: url('../fonts/SueEllenFrancisco.eot');
+  src: url('../fonts/SueEllenFrancisco.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/SueEllenFrancisco.woff') format('woff'),
+    url('../fonts/SueEllenFrancisco.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+html{
+  font-size: 100%;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+	text-rendering: geometricPrecision;
+	font-smooth: always;
+	font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	-webkit-font-smoothing: antialiased;
+	-webkit-font-smoothing: subpixel-antialiased;
+  font-size: 100%;
+}
+body {
+	font-family: 'Sue Ellen Francisco', cursive;
+}
+.mapboxgl-marker a{
+  font-family: 'Sue Ellen Francisco', cursive;
+  font-size: 2em;
+  color: #000;
+}
+h1, .alpha,
+h2, .beta,
+h3, .gamma,
+h4, .delta,
+h5, .epsilon,
+h6, .zeta {
+  margin: 0;
+  letter-spacing: .01em;
+  font-family: "blockhead-black-face";
+}
+#closeimage{
+  font-family: "blockhead-black-face";
+  color: white;
+  font-size: 5em;
+  display: block;
+  position: absolute;
+  right: 30px;
+  top: 20px;
+  line-height: 1;
+}
+h1, .alpha {
+    font-size: 2.625em;
+    line-height: 1.0476190476190477;
+}
+h2, .beta {
+    font-size: 1.96875em;
+    line-height: 1.3968253968253967;
+}
+h3, .gamma {
+    font-size: 1.3125em;
+    line-height: 1.5714285714285714;
+}
+h4, .delta {
+    font-size: 1.1484375em;
+    line-height: 1.1972789115646258;
+}
+h5, .epsilon {
+    font-size: 0.984375em;
+    line-height: 1.3968253968253967;
+}
+h6, .zeta {
+    font-size: 0.875em;
+    line-height: 1.5714285714285714;
+}
+p,
+blockquote {
+    font-size: 2em;
+    line-height: 1.05;
+            hyphens: none;
+}
+dd,
+dt,
+li {
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    opacity: 1;
+		color: $brand-color;
+    transition: opacity 0.3s ease-in-out;
+}
+input, select, button, textarea, .btn{
+	font-size: 1.3125em;
+	line-height: 1.5714285714285714;
+}
+
+strong{
+	font-weight: 500;
+}
+p{
+	line-height: 1.9em;
+  	max-width: 35em;
+}
+pre{
+  background: $darkgrey;
+  color: white;
+  padding: 20px;
+}
+code{
+  font-family: monospace;
+}
+strong{
+  font-weight: 700;
+}

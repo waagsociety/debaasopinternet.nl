@@ -1,0 +1,9 @@
+Title: Info
+
+----
+
+Text: Wie is de baas van het internet?
+
+----
+
+Pageicon: map_icon.svg

@@ -1,0 +1,17 @@
+Title: SmartKidsLab
+
+----
+
+Author: Martin Risseeuw at Waag Society
+
+----
+
+Description: SmartKidsLab leert kinderen hoe ze hun omgeving kunnen meten met zelfgemaakte meters.
+
+----
+
+Keywords: Meten, omgeving
+
+----
+
+Copyright:  Waag Society

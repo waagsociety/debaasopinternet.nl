@@ -1,0 +1,39 @@
+title: information-block
+pages: false
+files: true
+fields:
+  title:
+    label: Title
+    type:  text
+  text:
+    label: Text
+    type:  textarea
+  infoimage:
+    label: Info image
+    type:  selector
+    mode:  single
+    types:
+        - image
+  # category:
+  #   label: Category
+  #   type: radio
+  #   default: cryptography
+  #   options:
+  #     a: A
+  #     boss: Baas
+  #     crime: Criminaliteit
+  #     cryptography: Cryptografie
+  #     key: Sleutel
+  #     share: Delen
+  #     store: Opslaan
+  assignment:
+    label: Assignment
+    type: radio
+    default: cryptography
+    options:
+      boss: Baas
+      crime: Criminaliteit
+      cryptography: Cryptografie
+      key: Sleutel
+      share: Delen
+      store: Opslaan

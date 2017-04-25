@@ -1,0 +1,21 @@
+Title: Dataverzameling
+
+----
+
+Text: Wie is de BAAS van het INTERNET? Je leert dat dataverzameling consequenties heeft, dat patronen en algoritmes KRACHTIG zijn.
+
+----
+
+Infoimage: placeholder.png
+
+----
+
+Category: a
+
+----
+
+Assignment: boss
+
+----
+
+Download: SmartKidsLab_Schetenmeter.pdf

@@ -1,0 +1,21 @@
+Title: Home
+
+----
+
+Text: 
+
+----
+
+Tagline: 
+
+----
+
+Pagetitle: datahub
+
+----
+
+Heroimage: hero-3.png
+
+----
+
+Pageicon: 

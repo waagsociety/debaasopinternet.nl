@@ -1,0 +1,88 @@
+.info__field{
+  max-width: 400px;
+  margin: $gutter * 1.5;
+  h2{
+    font-size: 2.625em;
+  }
+}
+
+.introduction.default{
+  align-items: initial;
+}
+.introdescription p{
+  max-width: none;
+  line-height: 1.5em;
+  font-size: 1em;
+  margin-bottom: 2em;
+}
+
+.info__icon{
+  margin-bottom: $gutter / 4;
+}
+.info__header{
+  margin-bottom: 1em;
+  display: flex;
+  align-items: center;
+  h2{
+    width: auto;
+    display: inline-block;
+  }
+}
+.text__block{
+  padding: 40px;
+}
+.category-icon{
+  width: 100px;
+  height: 100px;
+  margin-left: 20px;
+  background-repeat: no-repeat;
+}
+.werkblad-icon{
+  background-size: cover;
+  width: 160px;
+  height: 160px;
+  margin-right: 20px;
+  background-repeat: no-repeat;
+}
+
+.crime { background-image: url(../images/icon-crime.svg) }
+.key { background-image: url(../images/icon-key.svg) }
+.cryptography { background-image: url(../images/icon-cryptography.svg) }
+.share { background-image: url(../images/icon-share.svg) }
+.store { background-image: url(../images/icon-store.svg) }
+.boss { background-image: url(../images/icon-boss.svg) }
+
+
+@media (min-width:320px) {
+  .info__field{
+    max-width: 300px;
+    margin: $gutter / 2;
+  }
+}
+
+@media (min-width:1080px) {
+  .info__field{
+    max-width: 400px;
+    margin: $gutter * 1.5;
+  }
+}
+
+.download__icon{
+  display: inline-block;
+  width: 130px;
+  padding-bottom: 78px;
+  background-repeat: no-repeat;
+  background-image: url(../images/download.svg); 
+}
+
+.download__btn {
+  display: flex;
+  align-items: center;
+  font-size: 1.5em;
+  color: black;
+  text-transform: uppercase;   
+  cursor:pointer;
+}
+.infotje{
+  max-width: 700px;
+}
