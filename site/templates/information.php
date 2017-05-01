@@ -22,7 +22,12 @@
               </header>
               <div class="intro">
                 <?php echo $info->text()->kirbytext() ?>
-                <a href="<?php echo $info->document($info->download())->url() ?>" target="_blank" class="download__btn"><span class="download__icon"></span> <?php echo $info->title()->html() ?></a>
+                <?php if ($info->document()) : ?>
+                  <a href="<?php echo $info->document()->url() ?>" target="_blank" class="download__btn">
+                    <span class="download__icon"></span> 
+                    <?php echo $info->title()->html() ?>
+                  </a>
+                <?php endif ?>
               </div>
             </div>
           </div>
