@@ -62,12 +62,18 @@
     color: black;
     position: relative;
     padding: 5px 5px 10px;
+    // font-weight: 700;
     // font-size: 48px;
     // text-transform: uppercase;
     display: inline-block;
     white-space: nowrap;
     &.active{
-      transform: scale(1.1) rotate(2deg);
+      font-weight: 700;
+      // transform: scale(1.1) rotate(2deg);
     }
   }
+}
+
+h1, h2 {
+  font-weight: 700;
 }

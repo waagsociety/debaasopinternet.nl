@@ -18,7 +18,6 @@
             <div>
               <header class="flex info__header">
                 <h2><?php echo $info->title()->html() ?></h2>
-                <div class="category-icon <?php echo $info->category() ?>"></div>
               </header>
               <div class="intro">
                 <?php echo $info->text()->kirbytext() ?>
