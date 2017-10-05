@@ -1,6 +1,8 @@
 <nav class="main__navigation full__width flex flex__wrap flex__center">
   <ul class="main__navigation__list flex full__width">
-    <li class="logo__list"><a href="/" class="main__logo">home</a></li>
+    <li class="logo__list">
+      <a href="/" class="main__logo"><img src="<?= $site->url()."/assets/images/logo_debaasopinternet.svg" ?>"></a>
+    </li>
     <?php foreach($pages->visible() as $p): ?>
     <li class="main__navigation__list__item">
       <a <?php e($p->isOpen(), ' class="active"') ?> href="<?php echo $p->url() ?>">

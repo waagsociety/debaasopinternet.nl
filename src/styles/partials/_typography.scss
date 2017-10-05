@@ -1,13 +1,16 @@
 @font-face {
-  font-family: 'Sue Ellen Francisco';
-  src: url('../fonts/SueEllenFrancisco.eot');
-  src: url('../fonts/SueEllenFrancisco.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/SueEllenFrancisco.woff') format('woff'),
-    url('../fonts/SueEllenFrancisco.ttf') format('truetype');
-  font-weight: normal;
+  font-family: 'Roboto Mono';
+  src: url('../fonts/roboto-mono/400.ttf') format('truetype');
+  font-weight: 400;
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Roboto Mono';
+  src: url('../fonts/roboto-mono/700.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
 
 html{
   font-size: 100%;
@@ -19,13 +22,13 @@ html{
 	-moz-font-smoothing: antialiased;
 	-webkit-font-smoothing: antialiased;
 	-webkit-font-smoothing: subpixel-antialiased;
-  font-size: 100%;
+    font-size: 100%;
 }
 body {
-	font-family: 'Sue Ellen Francisco', cursive;
+    font-size: 87.5%;
+	font-family: 'Roboto Mono', monospace;
 }
 .mapboxgl-marker a{
-  font-family: 'Sue Ellen Francisco', cursive;
   font-size: 2em;
   color: #000;
 }
@@ -37,10 +40,10 @@ h5, .epsilon,
 h6, .zeta {
   margin: 0;
   letter-spacing: .01em;
-  font-family: "blockhead-black-face";
+//  font-family: "blockhead-black-face";
 }
 #closeimage{
-  font-family: "blockhead-black-face";
+//  font-family: "blockhead-black-face";
   color: white;
   font-size: 5em;
   display: block;
@@ -75,9 +78,8 @@ h6, .zeta {
 }
 p,
 blockquote {
-    font-size: 2em;
     line-height: 1.05;
-            hyphens: none;
+    hyphens: none;
 }
 dd,
 dt,
@@ -87,7 +89,7 @@ li {
 a{
     text-decoration: none;
     opacity: 1;
-		color: $brand-color;
+    color: $brand-color;
     transition: opacity 0.3s ease-in-out;
 }
 input, select, button, textarea, .btn{
@@ -95,9 +97,6 @@ input, select, button, textarea, .btn{
 	line-height: 1.5714285714285714;
 }
 
-strong{
-	font-weight: 500;
-}
 p{
 	line-height: 1.9em;
   	max-width: 35em;
@@ -108,7 +107,7 @@ pre{
   padding: 20px;
 }
 code{
-  font-family: monospace;
+//  font-family: monospace;
 }
 strong{
   font-weight: 700;

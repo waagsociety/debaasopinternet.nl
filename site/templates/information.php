@@ -13,7 +13,7 @@
           </figure>
           <div class="half__width text__block flex flex__center infotje">
             <div>
-                <div class="werkblad-icon <?php echo $info->assignment() ?>"></div>
+              <?php e(strlen($info->icon()) > 0, '<img src="'.$info->url().'/'.$info->icon().'">') ?>
             </div>
             <div>
               <header class="flex info__header">
@@ -25,7 +25,7 @@
                 <?php if ($info->document()) : ?>
                   <a href="<?php echo $info->document()->url() ?>" target="_blank" class="download__btn">
                     <span class="download__icon"></span> 
-                    <?php echo $info->title()->html() ?>
+                    <?php //echo $info->title()->html() ?>
                   </a>
                 <?php endif ?>
               </div>

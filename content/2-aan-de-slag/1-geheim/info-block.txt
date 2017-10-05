@@ -1,4 +1,4 @@
-Title: Geheim
+Title: Test Geheim
 
 ----
 
@@ -19,3 +19,7 @@ Assignment: key
 ----
 
 Download: SmartKidsLab_Zuurmeter.pdf
+
+----
+
+Icon: privacy.svg

@@ -1,3 +1,7 @@
+@media (max-width: 480px) {
+  body { font-size: 75% }
+}
+
 @media (min-width:320px) {
   .werkblad-icon{
     // width: 100px;
@@ -25,13 +29,13 @@
     padding: 5px 10px;
   }
   .main__navigation__list__item a{
-    font-size: 14px;
+    // font-size: 14px;
   }
   .big_logo{
     display: none;
   }
   .introdescription{
-    font-size: 20px;
+    // font-size: 20px;
   }
   .introduction{
     padding: 20px 0;
@@ -60,13 +64,13 @@
     display: none;
   }
   .main__navigation:after{
-    display: none;
+    // display: none;
   }
   .logo__list{
-    margin-right: 0;
+    // margin: auto;
   }
   .main__logo{
-    padding-bottom: 30%;
+    // padding-bottom: 30%;
   }
   .mapboxgl-ctrl-geocoder
   {   
@@ -153,7 +157,7 @@
   //   padding-bottom: 15%;
   // }
   .logo__list{
-    margin-right: 50px;
+    // margin-right: 50px;
   }
 
   .half__width{
@@ -179,7 +183,7 @@
   }
 
   .main__navigation__list__item a{
-    font-size: 16px;
+    // font-size: 16px;
   }
   .main__navigation__list__item{
     margin: 0 20px;
@@ -188,7 +192,7 @@
     display: block;
   }
   .introdescription{
-    font-size: 48px;
+    // font-size: 48px;
   }
   .introduction{
     padding: 100px 0;
@@ -230,7 +234,7 @@
 
 @media (min-width:1300px) {
   .main__navigation__list__item a{
-    font-size: 32px;
+    // font-size: 32px;
   }
   .map__sidebar{
     font-size: .7em;
@@ -292,13 +296,13 @@
   }
 
   .main__navigation__list__item a{
-    font-size: 48px;
+    // font-size: 48px;
   }
   .big_logo{
     display: block;
   }
   .introdescription{
-    font-size: 48px;
+    // font-size: 48px;
   }
   .introduction{
     padding: 100px 0 0;
@@ -345,10 +349,6 @@
   
 }
 
-@media (min-width:2000px) {
-  
-}
-
 
 
 @media (max-width:1280px) {
@@ -365,7 +365,7 @@
     padding: 50px 0;
   }
   .introdescription{
-    font-size: 28px;
+    // font-size: 28px;
   }
   .form-popup .mapboxgl-popup-content{
     max-width: 600px;

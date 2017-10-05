@@ -9,6 +9,9 @@ fields:
   description:
     label: Description
     type:  textarea
+  logo:
+    label: logo
+    type: Image
   keywords:
     label: Keywords
     type:  tags

@@ -10,8 +10,12 @@ Description: SmartKidsLab leert kinderen hoe ze hun omgeving kunnen meten met ze
 
 ----
 
-Keywords: Meten, omgeving
+Keywords: Meten,omgeving
 
 ----
 
-Copyright:  Waag Society
+Copyright: Waag Society
+
+----
+
+Logo: logo_debaasopinternet.svg

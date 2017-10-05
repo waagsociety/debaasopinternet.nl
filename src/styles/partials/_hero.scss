@@ -1,5 +1,5 @@
 .hero__header{
-  min-height: calc(100vh - 75px);
+  // min-height: calc(100vh - 75px);
   background-attachment: fixed;
   background-size: cover;
   font-size: 1.5em;
@@ -13,6 +13,8 @@
 .introduction{
   padding: 100px 0;
   font-size: 1.2em;
+  max-width: 48em;
+  line-height: 1.6;
   .intro__inner{
     max-width: 1000px;
     max-width: 70%;
@@ -25,7 +27,7 @@
   }
 }
 .introdescription{
-  transform: rotate(0.2deg);
+  // transform: rotate(0.2deg);
 }
 
 .big_logo{
@@ -51,8 +53,8 @@
 }
 
 .introdescription{
-  font-size: 48px;
-  line-height: 1.4;
+  // font-size: 48px;
+  // line-height: 1.4;
   text-align: left;
 }
 .svg__header{
