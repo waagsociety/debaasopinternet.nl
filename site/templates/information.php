@@ -21,12 +21,14 @@
               </header>
               <div class="intro">
                 <?php echo $info->text()->kirbytext() ?>
-                <?php if ($info->document()) : ?>
-                  <a href="<?php echo $info->document()->url() ?>" target="_blank" class="download__btn">
+                <?php foreach($info->documents() as $document) : ?>
+                  <a href="<?php echo $document->url() ?>" target="_blank" class="download__btn">
                     <span class="download__icon"></span> 
-                    <?php //echo $info->title()->html() ?>
+                    <?php 
+						echo explode(".",end(explode("-",$document->safeName())))[0]; //get last part of name "a-b-c.pdf" => "c" 
+					?>
                   </a>
-                <?php endif ?>
+                <?php endforeach ?>
               </div>
             </div>
           </div>
