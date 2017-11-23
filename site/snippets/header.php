@@ -28,21 +28,22 @@
   <?php endif ?>
   
   <!-- Piwik -->
-  <script type="text/javascript">
-  	var _paq = _paq || [];
-  	_paq.push(["setDomains", ["*.smartkidslab.nl"]]);
-  	_paq.push(['trackPageView']);
-  	_paq.push(['enableLinkTracking']);
-  	(function() {
-	    var u="//stats.waag.org/";
-	    _paq.push(['setTrackerUrl', u+'piwik.php']);
-	    _paq.push(['setSiteId', '9']);
-	    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-	    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
-	})();
-  </script>
-  <noscript><p><img src="//stats.waag.org/piwik.php?idsite=9" style="border:0;" alt="" /></p></noscript>
-  <!-- End Piwik Code -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(["setCookieDomain", "*.debaasopinternet.nl"]);
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//stats.waag.org/";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', '27']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript><p><img src="//stats.waag.org/piwik.php?idsite=27&rec=1" style="border:0;" alt="" /></p></noscript>
+<!-- End Piwik Code -->
 
 </head>
 <body>
