@@ -37,6 +37,11 @@ footer, header, hgroup, menu, nav, section {
 ol, ul {
 	list-style: none;
 }
+
+.content__container li {
+	list-style: inside;
+}
+
 blockquote, q {
 	quotes: none;
 }
@@ -54,4 +59,9 @@ div, section, nav{
 }
 svg[hidden]{
   display: none;
+}
+
+content__container ul,
+content__container ol {
+	list-style: initial;
 }
